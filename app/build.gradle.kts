@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "by.eapp.gamesearcher"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "by.eapp.gamesearcher"
@@ -67,6 +67,11 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
-
+            //parsing
     implementation ("com.google.code.gson:gson:2.8.7")
+            //navigation with compose
+    implementation ("androidx.navigation:navigation-compose:2.7.5")
+            //compose
+    implementation ("androidx.compose.material3:material3:1.1.2")
+    implementation ("androidx.compose.material3:material3-window-size-class:1.1.2")
 }
